@@ -79,7 +79,7 @@ apps:
 
 ## Run the scraper:
 
-``bash
+```bash
 python main.py
 ```
 
