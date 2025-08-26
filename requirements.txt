@@ -1,0 +1,22 @@
+langgraph>=0.0.30
+langchain>=0.1.16
+langchain-core>=0.1.48
+langchain-community>=0.0.34
+
+# Google Play Store scraping
+google-play-scraper>=1.2.2
+
+# Apple App Store scraping (HTML-based, fallback scraper)
+# app-store-scraper-py>=0.3.5  # From PyPI
+
+# Utility libraries
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+pydantic>=2.6.4
+tqdm>=4.66.4
+
+streamlit
+wordcloud
+matplotlib
+seaborn
+
