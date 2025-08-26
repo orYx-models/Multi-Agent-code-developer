@@ -54,17 +54,34 @@ oryx-mobile-review-intel/
 ```bash
 git clone https://github.com/oryx-models/oryx-mobile-review-intel.git
 cd oryx-mobile-review-intel
+```
+
+## 🔧 Setup Instructions
+
+1. **Clone** the repository  
+2. **Edit `.env`** with your Snowflake credentials  
+3. **Install dependencies:**
+
+## Install dependencies:
+
+**pip install -r requirements.txt**
 
 
-## Install Dependencies:
+## Update config:
 
-pip install -r requirements.txt
+Edit config/sohar.yaml and define your app list like this:
+
+apps:
+  - name: Sohar International Bank
+    id: com.BankSoharMB
+    platform: Android
 
 
 ## Run the scraper:
 
+``bash
 python main.py
----
+```
 
 ## 👤 Author
 
